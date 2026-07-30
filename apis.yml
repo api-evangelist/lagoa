@@ -1,7 +1,37 @@
 aid: lagoa
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lagoa.png
 name: Lagoa
-description: Lagoa is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Lagoa was a cloud-based 3D visualization, rendering, and CAD publishing
+  platform built by TeamUp Technologies Inc., billed as the first web-based
+  platform for photoreal 3D visualization and rendering. It let artists,
+  designers, engineers, and architects import over 40 native CAD formats, build
+  kinematic assemblies, produce photoreal renders in the browser via its
+  MultiOptics interactive rendering engine, publish interactive 3D product
+  configurators, and collaborate on scenes in real time — with no local hardware
+  or installed software. Lagoa also ran a developer platform exposing server-side
+  Platform APIs (geometry and image transcoding, asset management, thumbnailing,
+  user authentication, versioning) alongside an Application Framework with
+  Application, Collaboration, and Real-time Persistence APIs for embedding
+  browser-based 3D into third-party apps. The company acquired browser CAD tool
+  3DTin in September 2013. Surfaced as a portfolio company of 500-global and
+  added to the API Evangelist network for enrichment. The company is defunct: the
+  marketing site (home.lagoa.com), support and API documentation
+  (support.lagoa.com) and application host all stopped resolving, the
+  github.com/lagoa organization is empty, and lagoa.com is now a parked listing
+  offered for sale on atom.com. No live developer, API, or documentation surface
+  remains to harvest.
 url: https://raw.githubusercontent.com/api-evangelist/lagoa/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,17 +39,42 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: >-
+  Company wound down. All Lagoa hosts are gone — home.lagoa.com,
+  support.lagoa.com, api.lagoa.com and docs.lagoa.com return NXDOMAIN, the
+  github.com/lagoa organization has 0 public repositories, and the
+  lagoa.com apex now resolves to a domain-sale listing on atom.com. Last
+  archived capture of the product site is from 2018.
+x-built-by: TeamUp Technologies Inc.
+x-acquired: 3DTin (September 2013)
+x-domain-status: for-sale
+x-domain-listing: https://www.atom.com/name/LAGOA.COM
+x-archive: https://web.archive.org/web/2016/http://home.lagoa.com/
+x-archive-api-docs: https://web.archive.org/web/2016/http://support.lagoa.com/api/
+x-historical-github: https://github.com/lagoa
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- 3D
+- 3D Rendering
+- Visualization
+- CAD
+- Computer Graphics
+- Cloud Platform
+- Collaboration
+- Product Configurator
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-common:
-- type: Website
-  url: https://lagoa.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
