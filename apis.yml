@@ -53,7 +53,7 @@ x-domain-listing: https://www.atom.com/name/LAGOA.COM
 x-archive: https://web.archive.org/web/2016/http://home.lagoa.com/
 x-archive-api-docs: https://web.archive.org/web/2016/http://support.lagoa.com/api/
 x-historical-github: https://github.com/lagoa
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
