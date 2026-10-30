@@ -64,25 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Lagoa was a cloud-based 3D visualization, rendering, and CAD publishing platform built by TeamUp Technologies Inc. — billed as the first web-based platform for photoreal 3D visualization and rendering. It let artists, designers, engineers, and architects import over 40 native CAD formats, build kinematic assemblies, produce photoreal renders in the browser via its MultiOptics interactive rendering engine, publish interactive 3D product configurators, and collaborate on scenes in real time, with no local hardware or installed software.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-Lagoa also ran a developer platform exposing server-side Platform APIs (geometry and image transcoding, asset management, thumbnailing, user authentication, versioning) alongside an Application Framework with Application, Collaboration, and Real-time Persistence APIs for embedding browser-based 3D into third-party applications. The company acquired browser CAD tool 3DTin in September 2013.
+Lagoa was a cloud-based 3D visualization, rendering, and CAD publishing platform built by TeamUp Technologies Inc., billed as the first web-based platform for photoreal 3D visualization and rendering. It let artists, designers, engineers, and architects import over 40 native CAD formats, build kinematic assemblies, produce photoreal renders in the browser via its MultiOptics interactive rendering engine, publish interactive 3D product configurators, and collaborate on scenes in real time — with no local hardware or installed software. Lagoa also ran a developer platform exposing server-side Platform APIs (geometry and image transcoding, asset management, thumbnailing, user authentication, versioning) alongside an Application Framework with Application, Collaboration, and Real-time Persistence APIs for embedding browser-based 3D into third-party apps. The company acquired browser CAD tool 3DTin in September 2013. Surfaced as a portfolio company of 500-global and added to the API Evangelist network for enrichment. The company is defunct: the marketing site (home.lagoa.com), support and API documentation (support.lagoa.com) and application host all stopped resolving, the github.com/lagoa organization is empty, and lagoa.com is now a parked listing offered for sale on atom.com. No live developer, API, or documentation surface remains to harvest.
 
-## Status: defunct
+**Areas:** Company · 3D · 3D Rendering · Visualization · CAD · Computer Graphics · Cloud Platform · Collaboration · Product Configurator · Defunct
 
-No live developer, API, or documentation surface remains:
+## Lagoa on APIs.io (historical record)
 
-- `home.lagoa.com`, `support.lagoa.com`, `api.lagoa.com`, `docs.lagoa.com` — NXDOMAIN
-- `github.com/lagoa` — organization exists but has 0 public repositories (the former `lagoa/API-Samples` repo returns 404)
-- `lagoa.com` — resolves to a parked domain-sale listing on atom.com
-- No first-party client libraries published on npm, PyPI, or RubyGems
-- Last archived capture of the product site: 2018
+Everything profiled for Lagoa is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lagoa/](https://apis.io/providers/lagoa/)** — or go straight to one of the APIs or properties below.
 
-Because there is no live surface and no specification to derive from, this repo carries identity only — no API artifacts were harvested.
+## API Evangelist rating
 
-## Archive references
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
 
-- Product site: https://web.archive.org/web/2016/http://home.lagoa.com/
-- API documentation: https://web.archive.org/web/2016/http://support.lagoa.com/api/
+## How this profile is made
 
-Backed by: 500-global
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lagoa: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lagoa/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
